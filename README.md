@@ -20,13 +20,13 @@
 
 # 👩‍💻 About Me
 
-- 🚀 DevOps | DevSecOps | SRE | AIOps Engineer with 3+ years of experience
-- ☁️ AWS — EKS, ECR, RDS, S3, Bedrock, SageMaker, CloudWatch, Athena, IAM
-- ⚙️ CI/CD — Jenkins, GitHub Actions, ArgoCD, Terraform
-- 🔐 DevSecOps — SonarQube, Trivy, IAM Hardening
-- 🤖 AIOps — AWS Bedrock, SageMaker
-- 📊 Observability — Prometheus, Grafana, EFK Stack
-- 🌱 Learning AI-powered DevSecOps on AWS EKS
+- 🚀 DevOps | DevSecOps | SRE | AIOps Engineer with 3+ years of hands-on experience
+- ☁️ Deep expertise in AWS — EKS, ECR, RDS, S3, Bedrock, SageMaker, CloudWatch, Athena, IAM
+- ⚙️ Building CI/CD pipelines — Jenkins, GitHub Actions, ArgoCD (GitOps), Terraform
+- 🔐 DevSecOps — SonarQube, Trivy image scanning, External Secrets Operator, IAM hardening
+- 🤖 AIOps — AWS Bedrock Nova Lite, Bedrock Claude, SageMaker ML endpoints
+- 📊 Observability — Prometheus, Grafana, EFK Stack, CloudWatch, CloudTrail, Athena SQL
+- 🌱 Currently deepening skills in AI-powered DevSecOps on AWS EKS
 
 ---
 
@@ -59,20 +59,86 @@
 
 🔗 https://github.com/pravalliika/k8s-ecommerce-microservices-cicd
 
-- GitOps-driven ecommerce microservices on AWS EKS
-- GitHub Actions → ECR → ArgoCD → EKS
-- Terraform infrastructure provisioning
-- EFK + Grafana + Prometheus observability
+<div align="left">
+
+<img src="https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+
+</div>
+
+> GitOps-driven ecommerce microservices on AWS EKS.
+>
+> GitHub Actions builds Docker images → pushes to ECR → ArgoCD auto-deploys to EKS.
+>
+> Terraform-provisioned infrastructure with full observability using EFK logs, Grafana dashboards, and Prometheus alerting.
 
 ---
 
-## 📊 AWS Log Analytics
+## 📊 AWS Log Analytics — CloudWatch, CloudTrail & Athena
 
 🔗 https://github.com/pravalliika/aws-log-analytics-cloudwatch-athena
 
-- CloudWatch + CloudTrail + Athena analytics
-- Serverless logging architecture
-- Detect IAM activity and failed API calls
+<div align="left">
+
+<img src="https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/CloudTrail-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white" />
+<img src="https://img.shields.io/badge/Athena-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/IAM-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+
+</div>
+
+> Serverless log analytics pipeline.
+>
+> CloudWatch Agent collects EC2 logs → exports to S3 → Amazon Athena queries using SQL.
+>
+> CloudTrail captures every AWS API call with zero servers to manage.
+
+---
+
+## 🏥 MediBot — AI-Powered Patient Triage System
+
+<div align="left">
+
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
+<img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white" />
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aqua&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS%20Bedrock%20Nova%20Lite-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+
+</div>
+
+> Full DevSecOps pipeline:
+>
+> Jenkins CI → compile → test → Trivy image scan → SonarQube quality gate → Nexus artifact → ECR → ArgoCD → EKS.
+>
+> AI-powered patient triage using AWS Bedrock Nova Lite.
+>
+> HTTPS via ACM + Route53 + cert-manager with Prometheus + Grafana monitoring.
+
+---
+
+## 🔐 ComplianceIQ — AI-Powered Compliance Automation Platform
+
+<div align="left">
+
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/SageMaker-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS%20Bedrock%20Claude-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+
+</div>
+
+> AI-powered compliance automation platform with 6 microservices deployed on AWS EKS using ArgoCD GitOps.
+>
+> ML-based compliance risk scoring via SageMaker endpoints and AI remediation recommendations using Bedrock Claude.
+>
+> External Secrets Operator syncs secrets securely from AWS Secrets Manager with OIDC-based GitHub Actions authentication.
 
 ---
 
@@ -93,6 +159,16 @@
 <br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=pravalliika&theme=tokyo-night&hide_border=true&area=true" />
+
+</div>
+
+---
+
+# 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://github.com/pravalliika/pravalliika/blob/output/snake.svg" />
 
 </div>
 
